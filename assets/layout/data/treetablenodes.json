@@ -1,0 +1,75 @@
+{
+    "root":
+    [
+        {
+            "key": "0",
+            "data":{
+                "bank":"UOB",
+                "currency":"S$",
+                "amount":"30,000"
+            },
+            "children":[
+                {
+                    "key": "0-0",
+                    "data":{
+                      "bank":"Savings Account",
+                      "currency":"S$",
+                      "amount":"30,000"
+                    },
+                    "children":[
+                        {
+                            "key": "0-0-0",
+                            "data":{
+                                "bank":"Uniplus Account",
+                                "currency":"S$",
+                                "amount":"20,500"
+                            }
+                        },
+                        {
+                            "key": "0-0-1",
+                            "data":{
+                              "bank":"Uniplus FCY Account",
+                              "currency":"US $",
+                              "amount":"7,000"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "key": "0-1",
+                    "data":{
+                      "bank":"Credit Cards",
+                      "currency":"S$",
+                      "amount":"10, 000"
+                    }
+                }
+            ]
+        },
+        {
+            "key": "1",
+            "data":{
+                "bank":"Standard Chartered",
+                "currency":"S$",
+                "amount":"70,000"
+            },
+            "children":[
+                {
+                    "key": "1-0",
+                    "data":{
+                      "bank":"Bonus $avings",
+                      "currency":"S$",
+                      "amount":"70, 000"
+                    }
+                },
+                {
+                    "key": "1-1",
+                    "data":{
+                      "bank":"Credit Cards",
+                      "currency":"S$",
+                      "amount":"10, 000"
+                    }
+                }
+            ]
+        }
+    ]
+}
